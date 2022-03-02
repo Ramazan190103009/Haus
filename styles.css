@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+div.header {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 50px;
+    background-color: #191919;
+}
+div.header p {
+    color: #fff;
+    text-align: center;
+}
+ul.menu{
+    display: block;
+    list-style-type: none;
+    padding: 50px;
+}
+.menu li {
+    float: left;
+    padding: 14px 16px;
+    text-transform: uppercase;
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+.rightmenu {
+    position: relative;
+    left: -50px;
+    top: -65px;
+    display: block;
+    list-style-type: none;
+}
+.rightmenu li a{
+    float: left;
+    padding: 14px 16px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.right {
+    float: right;
+}
+body{
+    background: url('https://d2hi6w5g1vcm9d.cloudfront.net/general/_seoFacebook/GOLDENE-BAR_0080_fotoBIRKENHOLZ.jpg?mtime=20171128104625');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+p.name-bar {
+    position: relative;
+    left: 40%;
+    top: -160px;
+    display: block;
+    width: 0%;
+    font-size: 80px;
+    font-family: "Sofia", sans-serif;
+    color: #d1d1d1;
+    text-shadow: 3px 3px 3px #ababab;
+}
+.header-description {
+    color: rgb(0, 0, 0);
+}
+.header-description .p1{
+    position: absolute;
+    left: 45%;
+    top: 110px;
+    font-size: 73px;
+    line-height: 96px;
+} 
+.header-description .p2 {
+    position: absolute;
+    left: 45%;
+    top: 350px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.header-description a {
+    position: absolute;
+    left: 45%;
+    top: 450px;
+    text-transform: uppercase;
+    background-color: rgba(180, 88, 88, 0.9);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #fff;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    position: relative;
+    top: 300px;
+    left: 120px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid;
+}
+article p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #888585;
+}
+.shops {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 500px;
+}
+.shops h1 {
+    position: absolute;
+    top: -230px;
+    left: 25%;
+    font-weight: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px 10px 10px #8f8b8b;
+    font-size: 80px;
+}
+.shops div {
+    position: relative;
+    left: 40px;
+    border: 1px solid;
+    margin-right: 50px;
+}
+.shops img {
+    width: 300px;
+}
+.shops a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 102, 102);
+    padding: 14px;
+    border: 1px solid;
+}
+.shops .first-section img {
+    width: 200px;
+    height: 300px;
+}
